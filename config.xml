@@ -16,5 +16,6 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
      Benjamin
   </author>
+   <icon src="icon.png" />
 
 </widget>
