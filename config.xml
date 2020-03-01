@@ -16,5 +16,6 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
      Benjamin
   </author>
-
+<plugin name="cordova-plugin-device" spec="^1.1.0" />
+<plugin name="cordova-plugin-device" spec="https://github.com/apache/cordova-plugin-device.git#1.0.0" />
 </widget>
