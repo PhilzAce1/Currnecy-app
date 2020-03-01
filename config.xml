@@ -16,10 +16,13 @@
   <author href="https://build.phonegap.com" email="support@phonegap.com">
      Benjamin
   </author>
-  <uses-permission android:name="android.permission.INTERNET" />
-<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+<!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
 <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
 <access origin= 'https://api.exchangeratesapi.io/latest' />
 <plugin name="cordova-plugin-device" spec="^1.1.0" />
 <plugin name="cordova-plugin-device" spec="https://github.com/apache/cordova-plugin-device.git#1.0.0" />
+
+<plugin name="cordova-plugin-network-information" spec="https://github.com/apache/cordova-plugin-network-information.git
+" />
 </widget>
